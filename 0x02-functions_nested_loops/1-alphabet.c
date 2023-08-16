@@ -1,12 +1,9 @@
 #include "main.h"
 
 /**
- * add - adds two int and returns their sum
- * @a: int first number to add
- * @b: int second number to be add to a
- * Return: sum of a and b
+ * print_alphabet - no params
+ * Return:0
  */
-
 void print_alphabet(void)
 {
 	char c = 'a';
