@@ -2,8 +2,10 @@
 
 /**
  * _isalpha - checks for alphabetic character
- * this is the function to check the c if it is a char or not
- */
+ * this is the function to check if c is a char or not
+ * @c: the char to be checked
+ * Return: 1 if c is a letter, 0 otherwise
+*/
 int _isalpha(int c)
 {
 	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
